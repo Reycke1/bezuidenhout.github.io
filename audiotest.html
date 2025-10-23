@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Audio</title>
+<style>
+#background-audio {
+position: fixed;
+z-index: -1;
+}
+</style>
+</head>
+<body>
+<audio id="background-audio" autoplay loop>
+<source src="audio/iplan_dlala_thukzin_zaba_sykes_kazeli_cover_mp3_18429.mp3 type=">
+Your browser does not support the audio element.
+</audio>
+<script>
+var audio = document.getElementById("background-audio");
+if (audio != null) {
+audio.play();
+}
+</script>
+</body>
+</html>
